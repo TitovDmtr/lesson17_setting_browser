@@ -1,4 +1,4 @@
-package org.example.uitest;
+package org.example.uitests.driver;
 
 public enum Browser {
     CHROME,
