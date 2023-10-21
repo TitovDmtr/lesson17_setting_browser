@@ -5,7 +5,7 @@
     <test name = "SimpleTest test name">
         <classes>
             <class name = "org.example.uitests.WaitersTests"/>
-
+            <class name = "org.example.uitests.ScrollDemo"/>
             <!--
             -->
         </classes>

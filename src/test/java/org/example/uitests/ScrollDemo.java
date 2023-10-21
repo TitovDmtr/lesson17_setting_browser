@@ -21,14 +21,10 @@ public class ScrollDemo extends BaseTestClass {
     @Test
     public void Test() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='accept-choices']"))).click();
-
         int a = 1;
-
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-
         driver.findElement(By.xpath("//*[@id='spacemyfooter']/div[3]/div[2]/a[6]")).click();
 
         Assert.assertEquals(driver.getTitle(), "W3.CSS Reference");
