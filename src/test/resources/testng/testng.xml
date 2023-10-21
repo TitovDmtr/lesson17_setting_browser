@@ -4,9 +4,9 @@
 <suite name = "SimpleTest suite name">
     <test name = "SimpleTest test name">
         <classes>
-            <class name = "org.example.uitests.WaitersTests"/>
             <class name = "org.example.uitests.ScrollDemo"/>
             <!--
+            <class name = "org.example.uitests.WaitersTests"/>
             -->
         </classes>
 
